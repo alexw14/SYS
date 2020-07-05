@@ -1,0 +1,7 @@
+.hero-img {
+  background: url('https://i.imgur.com/Sc1XQfi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 600px;
+}
