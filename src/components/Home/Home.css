@@ -3,5 +3,46 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 600px;
+  height: 100vh;
+  filter: blur(4px);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.main {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 8vw;
+}
+
+.main span {
+  color: #ffdf00;
+}
+
+.desc {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3vw;
+  margin-top: 40px;
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 667px) {
+  .main {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .desc {
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+  }
 }
